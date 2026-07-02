@@ -1,0 +1,5 @@
+project: cctz
+target: fuzz_cctz
+cmds:
+  - cmd: /mayhem/fuzz_cctz
+    libfuzzer: true
